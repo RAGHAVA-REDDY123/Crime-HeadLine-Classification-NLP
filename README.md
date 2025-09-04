@@ -1,12 +1,11 @@
-# Crime-HeadLine-Classification-NLP
+# Crime-HeadLine-Classification-NLP & Deep Learning
 
-📰 Crime Headline Classification using NLP & Deep Learning
-📌 Project Overview
+## Project Overview
 
 This project focuses on classifying crime-related headlines into binary classes using Natural Language Processing (NLP) techniques and various Machine Learning and Deep Learning models.
 The objective was to explore how preprocessing and different modeling approaches affect performance.
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 Python
 
@@ -14,7 +13,7 @@ Libraries: NLTK, Scikit-learn, TensorFlow/Keras, Pandas, NumPy
 
 Models: Logistic Regression, Random Forest, LSTM, BiLSTM
 
-🛠️ Workflow
+## 🛠️ Workflow
 
 Data Preprocessing
 
@@ -26,13 +25,13 @@ Removing stopwords & punctuation
 
 Padding sequences
 
-Feature Engineering
+## Feature Engineering
 
 Text to sequences using Tokenizer
 
 Fixed input length with pad_sequences
 
-Modeling
+## Modeling
 
 Logistic Regression → 67% accuracy
 
@@ -40,7 +39,7 @@ Random Forest → 76% accuracy
 
 BiLSTM → 85% accuracy 🎯
 
-Evaluation Metrics
+## Evaluation Metrics
 
 Accuracy
 
@@ -48,12 +47,13 @@ F1-score
 
 Confusion Matrix
 
-📊 Results
+## 📊 Results
 Model	Accuracy
 Logistic Regression	67%
 Random Forest	76%
 BiLSTM	85%
-🚀 Future Improvements
+
+## 🚀 Future Improvements
 
 Experiment with Transformers (BERT, DistilBERT)
 
